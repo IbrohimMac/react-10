@@ -8,7 +8,7 @@ import s3 from "../assets/s3-card.svg";
 import s3i from "../assets/s3-card2.svg";
 import s3n from "../assets/s3-card3.svg";
 
-const Products = () => {
+const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -89,4 +89,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Home;

@@ -28,7 +28,7 @@ const Header = () => {
                     <p>Home</p>
                   </Nav.Link>
                 </Link>
-                <Link to="/products">
+                <Link to="/shop">
                   <Nav.Link as="span">
                     <p>Shop</p>
                   </Nav.Link>
