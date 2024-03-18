@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding-left: 150px;
+  .nav-p {
+    display: flex;
+    gap: 75px;
+    margin-left: 436px;
+    margin-top: -32px;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      width: 48px;
+      height: 24px;
+      top: 38px;
+      left: 505px;
+      color: black;
+    }
+  }
+  .navIcon {
+    display: flex;
+    gap: 48px;
+    margin-left: 200px;
+  }
+}

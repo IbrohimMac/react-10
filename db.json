@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "chair",
+      "img": "/img1.svg",
+      "description": "Stylish cafe chair",
+      "currentCost": "Rp 2.500.000",
+      "discount": "Rp 3.500.000",
+      "name": "Syltherine"
+    },
+    {
+      "id": 2,
+      "category": "chair",
+      "img": "/img2.svg",
+      "description": "Stylish cafe chair",
+      "currentCost": "Rp 2.500.000",
+      "discount": "",
+      "name": "Leviosa"
+    },
+    {
+      "id": 3,
+      "category": "sofa",
+      "img": "/img3.svg",
+      "description": "Luxury big sofa",
+      "currentCost": "Rp 7.000.000",
+      "discount": "Rp 14.000.000",
+      "name": "Lolito"
+    },
+    {
+      "id": 4,
+      "category": "chair",
+      "img": "/img4.svg",
+      "description": "Outdoor bar table and stool",
+      "currentCost": "Rp 500.000",
+      "discount": "",
+      "name": "Respira"
+    },
+    {
+      "id": 5,
+      "category": "lamp",
+      "img": "/img5.svg",
+      "description": "Night lamp",
+      "currentCost": "Rp 1.500.000",
+      "discount": "",
+      "name": "Grifo"
+    },
+    {
+      "id": 6,
+      "category": "sofa",
+      "img": "/img6.svg",
+      "description": "Small mug",
+      "currentCost": "Rp 150.000",
+      "discount": "",
+      "name": "Muggo"
+    },
+    {
+      "id": 7,
+      "category": "sofa",
+      "img": "/img7.svg",
+      "description": "Stylish cafe chair",
+      "currentCost": "7.000.000",
+      "discount": "Rp 14.000.000",
+      "name": "Pingky"
+    },
+    {
+      "id": 8,
+      "category": "sofa",
+      "img": "/img8.svg",
+      "description": "Minimalist flower pot",
+      "currentCost": "Rp 500.000",
+      "discount": "",
+      "name": "Potty"
+    }
+  ]
+}
