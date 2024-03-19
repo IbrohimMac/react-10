@@ -5,10 +5,11 @@ import navIcon from "../assets/navIcon.svg";
 import navIcon2 from "../assets/navIcon2.svg";
 import navIcon3 from "../assets/navIcon3.svg";
 import navIcon4 from "../assets/navIcon4.svg";
-
+import Footer from "./Footer";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { NavbarCollapse } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -33,7 +34,7 @@ const Header = () => {
                     <p>Shop</p>
                   </Nav.Link>
                 </Link>
-                <Link to="/about">
+                <Link to="/product">
                   <Nav.Link as="span">
                     <p>About</p>
                   </Nav.Link>
@@ -51,7 +52,18 @@ const Header = () => {
           <img src={navIcon} alt="" />
           <img src={navIcon2} alt="" />
           <img src={navIcon3} alt="" />
-          <img src={navIcon4} alt="" />
+          <Navbar>
+            <Navbar.Collapse>
+              <Nav>
+                <Link to="/cart">
+                  <Nav.Link as="span">
+                    <img src={navIcon4} alt="" />
+                  </Nav.Link>
+                </Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+          {/* <img src={navIcon4} alt="" /> */}
         </div>
       </header>
     </>

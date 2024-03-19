@@ -1,0 +1,68 @@
+.s1 {
+  margin-top: 170px;
+  .admin {
+    display: flex;
+    gap: 90px;
+    .admin-caru {
+      background-color: #f9f1e7;
+      max-width: 600px;
+      .caru {
+        width: 581px;
+        height: 391px;
+        margin-top: 80px;
+      }
+    }
+    .mini1 {
+      h1 {
+        color: black;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 63px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      h2 {
+        color: #9f9f9f;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p {
+        color: black;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 424px;
+        height: 80px;
+        margin-top: 20px;
+      }
+      .buts {
+        display: flex;
+        gap: 16px;
+        button {
+          color: black;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          background-color: #f9f1e7;
+          border-radius: 7px;
+          width: 30px;
+          height: 30px;
+          border: none;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #b88e2f;
+          color: white;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
