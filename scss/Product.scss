@@ -1,6 +1,6 @@
 .s1 {
-  margin-top: 170px;
   .admin {
+    margin-top: 160px;
     display: flex;
     gap: 90px;
     .admin-caru {
@@ -20,6 +20,7 @@
         line-height: 63px;
         letter-spacing: 0em;
         text-align: left;
+        margin-top: 20px;
       }
       h2 {
         color: #9f9f9f;
@@ -28,6 +29,7 @@
         line-height: 36px;
         letter-spacing: 0em;
         text-align: left;
+        margin-top: 10px;
       }
       p {
         color: black;
@@ -38,11 +40,12 @@
         text-align: left;
         width: 424px;
         height: 80px;
-        margin-top: 20px;
+        margin-top: 40px;
       }
       .buts {
         display: flex;
         gap: 16px;
+        margin-top: 20px;
         button {
           color: black;
           font-size: 13px;
@@ -63,6 +66,99 @@
           transition: 0.4s;
         }
       }
+      .butAdd {
+        background-color: white;
+        color: black;
+        border: 1px solid #000000;
+        width: 215px;
+        height: 64px;
+        gap: 0px;
+        border-radius: 15px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 100px;
+        cursor: pointer;
+      }
+      .butAdd:hover {
+        background-color: #e8e7e5;
+        transition: 0.4s;
+      }
+      .lin {
+        border: 1px solid #d9d9d9;
+        margin-top: 60px;
+      }
     }
+  }
+}
+.s2 {
+  .lii {
+    border: 1px solid #d9d9d9;
+  }
+  .s2-tri {
+    margin-top: 60px;
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    h2 {
+      cursor: pointer;
+      color: black;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      text-align: left;
+    }
+    h2:hover {
+      color: #9f9f9f;
+      transition: 0.4s;
+    }
+  }
+  .s2-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9f9f9f;
+    width: 1026px;
+    height: 48px;
+    top: 1163px;
+    left: 207px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 37px;
+    margin-left: 175px;
+  }
+  .s2-p1 {
+    width: 1026px;
+    height: 96px;
+    top: 1241px;
+    left: 207px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9f9f9f;
+    margin-top: 30px;
+    margin-left: 175px;
+  }
+  .s2-card-vme {
+    justify-content: center;
+    margin-top: 36px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+.s3 {
+  .lii {
+    border: 1px solid #d9d9d9;
+  }
+  .s3-h {
+    width: 330px;
+    height: 54px;
+    margin-top: 55px;
   }
 }

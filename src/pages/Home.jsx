@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "../../scss/Home.scss";
 import Data from "../../db.json";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+import { NavbarCollapse } from "react-bootstrap";
 import s2I1 from "../assets/s2-i1.svg";
 import s2I2 from "../assets/s2-i2.svg";
 import s2I3 from "../assets/s2-i3.svg";
@@ -67,7 +71,17 @@ const Home = () => {
                   <div className="s3-card">
                     <img className="s3-i" src={product.img} />
                     <div className="card-nonee">
-                      <button>Add to cart</button>
+                      <Navbar>
+                        <Navbar.Collapse>
+                          <Nav>
+                            <Link to="/cart">
+                              <Nav.Link as="span">
+                                <button>Add To Cart</button>
+                              </Nav.Link>
+                            </Link>
+                          </Nav>
+                        </Navbar.Collapse>
+                      </Navbar>
                       <div className="card-nonne">
                         <img src={s3} alt="" />
                         <img src={s3i} alt="" />

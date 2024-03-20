@@ -1,0 +1,54 @@
+main {
+  .s1 {
+    .s1-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      margin-top: 200px;
+      .s1-card {
+        background-color: #f4f5f7;
+        padding-bottom: 30px;
+
+        h2 {
+          margin-top: 16px;
+          // margin-left: 26px;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 29px;
+          letter-spacing: 0em;
+          color: #3a3a3a;
+          // text-align: center;
+          margin-left: 50px;
+        }
+        p {
+          margin-top: 8px;
+          margin-left: 16px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #898989;
+        }
+        h3 {
+          margin-top: 8px;
+          margin-left: 16px;
+          color: #3a3a3a;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+    .s1-card:hover {
+      opacity: 85%;
+      box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.4);
+      transition: 0.5s;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
